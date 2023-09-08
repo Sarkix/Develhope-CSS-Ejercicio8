@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8 CSS - Media Queries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <main>
+        <section class="card-container">
+
+            <div class="card card-one"> <!-- CARD 1 -->
+
+                <div class="card-header">
+                    <div class="circle-text-container">
+                        <div class="user-circle"></div>
+                        <div class="card-header-text">
+                            <h1>Mario Rossi</h1>
+                            <p class="color-white">Lun, 13/12/2021</p>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    </svg>
+                </div>
+
+                <div class="image-container">
+                    <img src="Foto-gato-1.png" alt="Foto gato 1">
+                </div>
+                <div class="card-footer">
+                    <div class="icon-container">  <!-- Aquí empieza el icon container -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1" />
+                        </svg>
+                        
+                    </div> <!-- Aquí termina el icon container -->
+                    <div class="card-footer-text">
+                        <p><span>gatto:</span> dolor sit amet consectetur adipisicing elit. Labore iste, molestias incidunt nihil velit nobis qui iusto asperiores ea, perferendis numquam vel mollitia, quod distinctio.</p>
+                    </div>
+                </div>
+            </div> <!-- TERMINA CARD 1 -->
+
+            <div class="card card-two"> <!-- CARD 2 -->
+
+                <div class="card-header">
+                    <div class="circle-text-container">
+                        <div class="user-circle"></div>
+                        <div class="card-header-text">
+                            <h1>Elis Miao</h1>
+                            <p class="color-white">Lun, 17/12/2021</p>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    </svg>
+                </div>
+
+                <div class="image-container">
+                    <img src="Foto-gato-2.png" alt="Foto gato 1">
+                </div>
+                <div class="card-footer">
+                    <div class="icon-container">  <!-- Aquí empieza el icon container -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1" />
+                        </svg>
+                        
+                    </div> <!-- Aquí termina el icon container -->
+                    <div class="card-footer-text">
+                        <p><span>gatto:</span> dolor sit amet consectetur adipisicing elit. Labore iste, molestias incidunt nihil velit nobis qui iusto asperiores ea, perferendis numquam vel mollitia, quod distinctio.</p>
+                    </div>
+                </div>
+            </div> <!-- TERMINA CARD 2 -->
+
+            <div class="card card-three"> <!-- CARD 3 -->
+
+                <div class="card-header">
+                    <div class="circle-text-container">
+                        <div class="user-circle"></div>
+                        <div class="card-header-text">
+                            <h1>Gattino Micino</h1>
+                            <p class="color-white">Lun, 13/12/2021</p>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    </svg>
+                </div>
+
+                <div class="image-container">
+                    <img src="Foto-gato-3.png" alt="Foto gato 1">
+                </div>
+                <div class="card-footer">
+                    <div class="icon-container">  <!-- Aquí empieza el icon container -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1" />
+                        </svg>
+                        
+                    </div> <!-- Aquí termina el icon container -->
+                    <div class="card-footer-text">
+                        <p><span>gatto:</span> dolor sit amet consectetur adipisicing elit. Labore iste, molestias incidunt nihil velit nobis qui iusto asperiores ea, perferendis numquam vel mollitia, quod distinctio.</p>
+                    </div>
+                </div>
+            </div> <!-- TERMINA CARD 3 -->
+
+        </section>
+    </main>
+</body>
+
+</html>
